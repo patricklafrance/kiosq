@@ -1,0 +1,19 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "editor.minimap.enabled": false,
+    "javascript.validate.enable": false,
+    "html.suggest.angular1": false,
+    "html.suggest.ionic": false,
+    "htmlhint.enable": false,
+    "vsicons.presets.angular": false,
+    "editor.wordWrap": "off",
+    "files.associations": {
+        "*.variables": "less",
+        "*.overrides": "less"
+    },
+    "search.exclude": {
+        "**/node_modules*": true,
+        ".bin": true,
+        "dist": true
+    }
+}

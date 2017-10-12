@@ -1,0 +1,6 @@
+node_modules*
+dist
+npm-debug.log*
+test/e2e/dist
+local.log
+/.chrome

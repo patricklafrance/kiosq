@@ -1,0 +1,42 @@
+{
+  "base": "",
+  "paths": {
+    "source": {
+      "config": "semantic/src/theme.config",
+      "definitions": "semantic/src/definitions/",
+      "site": "semantic/src/site/",
+      "themes": "semantic/src/themes/"
+    },
+    "output": {
+      "packaged": "dist/semantic/",
+      "uncompressed": "dist/semantic/components/",
+      "compressed": "dist/semantic/components/",
+      "themes": "dist/semantic/themes/"
+    },
+    "clean": "dist/semantic/"
+  },
+  "components": [
+    "api",
+    "accordion",
+    "button",
+    "checkbox",
+    "divider",
+    "dropdown",
+    "form",
+    "grid",
+    "header",
+    "icon",
+    "input",
+    "loader",
+    "popup",
+    "reset",
+    "search",
+    "site",
+    "table",
+    "transition"
+  ],
+  "permission": false,
+  "autoInstall": true,
+  "rtl": false,
+  "version": "2.2.10"
+}

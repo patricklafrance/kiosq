@@ -1,0 +1,13 @@
+{
+    "extends": "./.stylelintrc.json",
+    "defaultSeverity": "error",
+    "plugins": [],
+    "rules": {
+        "at-rule-empty-line-before": null,
+        "at-rule-name-case": null,
+        "selector-max-id": 3,
+        "selector-max-type": 3,
+        "selector-max-universal": 3,
+        "selector-no-qualifying-type": null
+    }
+}

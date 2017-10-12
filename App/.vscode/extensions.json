@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "AureliaEffect.aurelia",
+        "steoates.autoimport",
+        "ms-vscode.csharp",
+        "EditorConfig.EditorConfig",
+        "dbaeumer.vscode-eslint",
+        "christian-kohler.path-intellisense",
+        "shinnn.stylelint",
+        "robertohuertasm.vscode-icons",
+        "peterjuras.sort-imports"
+    ]
+}

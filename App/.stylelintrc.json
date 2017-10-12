@@ -1,0 +1,63 @@
+{
+    "extends": "stylelint-config-standard",
+    "defaultSeverity": "error",
+    "plugins": [
+        "stylelint-scss"
+    ],
+    "rules": {
+        "at-rule-empty-line-before": ["always", {
+            "except": [
+                "blockless-after-same-name-blockless",
+                "first-nested"
+            ],
+            "ignore": ["after-comment"],
+            "ignoreAtRules": ["import", "media", "font-face", "if", "else", "keyframes"]
+        }],
+        "rule-empty-line-before": ["never", {
+            "except": [
+                "first-nested"
+            ],
+            "ignore": ["inside-block"]
+        }],
+        "color-hex-case": "lower",
+        "font-family-name-quotes": "always-where-required",
+        "string-no-newline": true,
+        "string-quotes": "double",
+        "indentation": 4,
+        "max-nesting-depth": 4,
+        "selector-pseudo-element-colon-notation": "single",
+        "selector-no-qualifying-type": [true, {
+            "ignore": ["attribute"]
+        }],
+        "selector-max-id": 0,
+        "selector-max-type": 0,
+        "selector-max-universal": 0,
+        "no-duplicate-selectors": true,
+        "no-missing-end-of-source-newline": null,
+        "comment-whitespace-inside": null,
+        "scss/at-extend-no-missing-placeholder": null,
+        "scss/at-function-pattern": "^[a-z]+([a-z0-9-]+[a-z0-9]+)?$",
+        "scss/at-import-no-partial-leading-underscore": true,
+        "scss/at-import-partial-extension-blacklist": null,
+        "scss/at-import-partial-extension-whitelist": null,
+        "scss/at-mixin-argumentless-call-parentheses": "always",
+        "scss/at-mixin-pattern": "^[a-z]+([a-z0-9-]+[a-z0-9]+)?$",
+        "scss/dollar-variable-colon-newline-after": null,
+        "scss/dollar-variable-colon-space-after": "always",
+        "scss/dollar-variable-colon-space-before": "never",
+        "scss/dollar-variable-no-missing-interpolation": null,
+        "scss/dollar-variable-pattern": "^[a-z]+([a-z0-9-]+[a-z0-9]+)?$",
+        "scss/percent-placeholder-pattern": "^[a-z]+([a-z0-9-]+[a-z0-9]+)?$",
+        "scss/double-slash-comment-empty-line-before": null,
+        "scss/double-slash-comment-inline": ["never", {
+            "ignore": ["stylelint-commands"]
+        }],
+        "scss/double-slash-comment-whitespace-inside": "always",
+        "scss/media-feature-value-dollar-variable": null,
+        "scss/operator-no-newline-after": true,
+        "scss/operator-no-newline-before": true,
+        "scss/operator-no-unspaced": true,
+        "scss/partial-no-import": null,
+        "scss/selector-no-redundant-nesting-selector": true
+    }
+}
